@@ -1,0 +1,19 @@
+#add, #inc {
+    -fx-background-color: #75ad27;
+}
+
+#sub, #dec {
+    -fx-background-color: #f76262;
+}
+
+#update{
+    -fx-background-color: #68d6e8;
+}
+
+.button {
+    -fx-text-fill: #FFFFFF;
+}
+
+.text-field {
+    -fx-border-color: #68d6e8;
+}

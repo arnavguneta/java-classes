@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractClasses/AbstractClasses.iml" filepath="$PROJECT_DIR$/AbstractClasses/AbstractClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayMadness/ArrayMadness.iml" filepath="$PROJECT_DIR$/ArrayMadness/ArrayMadness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conditionals/Conditionals.iml" filepath="$PROJECT_DIR$/Conditionals/Conditionals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Debug Test/Debug Test.iml" filepath="$PROJECT_DIR$/Debug Test/Debug Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops/Loops.iml" filepath="$PROJECT_DIR$/Loops/Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Program 0-1/Program 0-1.iml" filepath="$PROJECT_DIR$/Program 0-1/Program 0-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Program 1-1/Program 1-1.iml" filepath="$PROJECT_DIR$/Program 1-1/Program 1-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Program 1-2/Program 1-2.iml" filepath="$PROJECT_DIR$/Program 1-2/Program 1-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Program 2-0/Program 2-0.iml" filepath="$PROJECT_DIR$/Program 2-0/Program 2-0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Program 3-0/Program 3-0.iml" filepath="$PROJECT_DIR$/Program 3-0/Program 3-0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Program 3-1/Program 3-1.iml" filepath="$PROJECT_DIR$/Program 3-1/Program 3-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sort/Sort.iml" filepath="$PROJECT_DIR$/Sort/Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringOne/StringOne.iml" filepath="$PROJECT_DIR$/StringOne/StringOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+    </modules>
+  </component>
+</project>

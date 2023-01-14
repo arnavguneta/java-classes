@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="462.0" prefWidth="425.0" style="-fx-background-color: white;" stylesheets="@styles/stylesheet.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="products.ProductController">
+    <children>
+        <ToolBar prefHeight="40.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <items>
+                <Button mnemonicParsing="false" onAction="#add" text="Add" />
+                <Button mnemonicParsing="false" onAction="#edit" text="Edit" />
+                <Button fx:id="delete" mnemonicParsing="false" onAction="#delete" text="Delete" />
+            </items>
+        </ToolBar>
+        <ToolBar layoutX="7.0" layoutY="421.0" prefHeight="40.0" prefWidth="554.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <items>
+                <Button mnemonicParsing="false" onAction="#save" prefHeight="27.0" prefWidth="51.0" text="Save" />
+                <AnchorPane prefHeight="28.0" prefWidth="216.0">
+                    <children>
+                        <Label fx:id="error1" layoutX="42.0" layoutY="3.0" prefHeight="23.0" prefWidth="213.0" text="Field(s) cannot be empty" textFill="#ff0202">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+            </items>
+        </ToolBar>
+        <TextField fx:id="name" editable="false" layoutX="23.0" layoutY="60.0" promptText="Ex: iPhone" />
+        <TextField fx:id="model" editable="false" layoutX="23.0" layoutY="120.0" promptText="Ex: 6s" />
+        <TextField fx:id="color" editable="false" layoutX="23.0" layoutY="180.0" promptText="Ex: Space Grey" />
+        <TextField fx:id="os" editable="false" layoutX="23.0" layoutY="240.0" promptText="Ex: iOS 11" />
+        <Label layoutX="30.0" layoutY="90.0" text="Name" />
+        <Label layoutX="30.0" layoutY="150.0" text="Model" />
+        <Label layoutX="30.0" layoutY="210.0" text="Color" />
+        <Label layoutX="30.0" layoutY="270.0" text="Operating Software" />
+        <TextField fx:id="stock" editable="false" layoutX="23.0" layoutY="300.0" promptText="Ex: 278" />
+        <TextField fx:id="cost" editable="false" layoutX="240.0" layoutY="60.0" promptText="Ex: 549.00 " />
+        <Label layoutX="247.0" layoutY="90.0" text="Cost" />
+        <TextField fx:id="cap" editable="false" layoutX="240.0" layoutY="120.0" promptText="Ex: 128" />
+        <Label layoutX="247.0" layoutY="150.0" text="Capacity" />
+        <TextField fx:id="size" editable="false" layoutX="240.0" layoutY="180.0" promptText="Ex: 4.7" />
+        <Label layoutX="247.0" layoutY="210.0" text="Screen Size" />
+        <TextField fx:id="weight" editable="false" layoutX="240.0" layoutY="240.0" promptText="Ex: 129" />
+        <Label layoutX="247.0" layoutY="270.0" text="Weight" />
+        <Label layoutX="30.0" layoutY="330.0" text="Amount in Stock" />
+        <CheckBox fx:id="used" layoutX="240.0" layoutY="314.0" mnemonicParsing="false" text="Used product" />
+      <Label fx:id="nameV" alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="60.0" text="Label" textAlignment="CENTER" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="modelV" layoutX="30.0" layoutY="120.0" text="Label" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="colorV" layoutX="30.0" layoutY="180.0" text="Label" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="osV" layoutX="30.0" layoutY="240.0" text="Label" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="stockV" layoutX="30.0" layoutY="300.0" text="Label" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="costV" layoutX="247.0" layoutY="60.0" text="Label" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="capV" layoutX="247.0" layoutY="120.0" text="Label" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="sizeV" layoutX="247.0" layoutY="180.0" text="Label" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="weightV" layoutX="247.0" layoutY="240.0" text="Label" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="usedV" layoutX="247.0" layoutY="300.0" text="Label" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Accordion prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <panes>
+          <TitledPane fx:id="general" animated="false" expanded="false" prefHeight="372.0" prefWidth="600.0" text="General">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="71.0" text="List View" />
+                        <TextArea editable="false" layoutX="132.0" layoutY="31.0" prefHeight="96.0" prefWidth="437.0" text="All products can be seen in the dropdown &quot;Records.&quot; To open a record or product, click on the list item and it will open in a tab on the right hand section. &quot;Add&quot; and &quot;Delete&quot; buttons can both alter this list. WARNING: once a record has been deleted, it cannot be restored. " wrapText="true" />
+                        <Label layoutX="14.0" layoutY="214.0" text="Tab View" />
+                        <TextArea editable="false" layoutX="132.0" layoutY="191.0" prefHeight="63.0" prefWidth="437.0" text="Each tab contains one record or product. Tabs can be closed manually and reopened via the list. To delete the tab from memory, press the &quot;Delete&quot; button. " wrapText="true" />
+                        <Label layoutX="52.0" layoutY="306.0" text="DISCLAIMER: Do NOT enter units in the text fields, they are already accounted for." />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Buttons">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="360.0" prefWidth="598.0">
+                     <children>
+                        <Button layoutX="31.0" layoutY="39.0" mnemonicParsing="false" text="Add" />
+                        <TextArea editable="false" layoutX="135.0" layoutY="28.0" prefHeight="49.0" prefWidth="449.0" text="When &quot;Add&quot; is pressed, it creates a new (blank) list item with the appropriate product index and opens the corresponding tab. " wrapText="true" />
+                        <Button layoutX="31.0" layoutY="114.0" mnemonicParsing="false" text="Edit" />
+                        <TextArea editable="false" layoutX="135.0" layoutY="103.0" prefHeight="49.0" prefWidth="449.0" text="When &quot;Edit&quot; is pressed, all text fields of the corresponding tab become editable." wrapText="true" />
+                        <Button layoutX="31.0" layoutY="197.0" mnemonicParsing="false" text="Delete" />
+                        <TextArea editable="false" layoutX="135.0" layoutY="170.0" prefHeight="81.0" prefWidth="449.0" text="When &quot;Delete&quot; is pressed, the user is prompted with an alert. If &quot;OK&quot; is pressed, it closes the corresponding tab and deletes the product from the list view. If there is only one product in the list, the delete button is disabled." wrapText="true" />
+                        <Button layoutX="31.0" layoutY="283.0" mnemonicParsing="false" text="Save" />
+                        <TextArea editable="false" layoutX="135.0" layoutY="272.0" prefHeight="83.0" prefWidth="449.0" text="If all text fields have been completed and &quot;Save&quot; is pressed, the data is stored and, depending on the mode, displayed in either the text fields or labels. If fields are left blank, they are highlighted by a red outline and the user is notified with an error message. " wrapText="true" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" prefWidth="324.0" text="Modes">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="12.0" layoutY="77.0" text="View Mode" />
+                        <Label layoutX="12.0" layoutY="94.0" text="[ALT V] [⌥ V] " />
+                        <TextArea editable="false" layoutX="105.0" layoutY="36.0" prefHeight="149.0" prefWidth="483.0" text="In view mode, the data is displayed on a neat and organized screen. The data is displayed when a new tab is opened or whenever new data is saved. Data in view mode can be force edited by clicking the &quot;Edit&quot; button. When clicked, the labels are replaced with text fields, allowing the user to edit data. After editing, the user has to press &quot;Save&quot; to update the view screen with the new values. If new records are created or opened and there is no data to display, the user will be asked to enter data. When &quot;Save&quot; is pressed, the data will be displayed" wrapText="true" />
+                        <Label layoutX="12.0" layoutY="231.0" text="Edit Mode" />
+                        <Label layoutX="12.0" layoutY="248.0" text="[ALT E] [⌥ E] " />
+                        <TextArea editable="false" layoutX="104.0" layoutY="224.0" prefHeight="48.0" prefWidth="483.0" text="In edit mode, the text fields are always editable. When &quot;Save&quot; is pressed, the data is redisplayed into the text fields instead of labels. " wrapText="true" />
+                        <Label layoutX="70.0" layoutY="320.0" text="To switch modes, click the menu item &quot;Mode&quot; and select the desired mode" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+   </children>
+</AnchorPane>

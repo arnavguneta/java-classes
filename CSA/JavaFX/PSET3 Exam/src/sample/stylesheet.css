@@ -1,0 +1,42 @@
+#add, #inc {
+    -fx-border-color: #4CAF50;
+}
+
+#sub, #dec {
+    -fx-border-color: #f44336;
+}
+
+#add:hover, #inc:hover {
+    -fx-background-color: #4CAF50;
+}
+
+#sub:hover, #dec:hover {
+    -fx-background-color: #f44336;
+}
+
+.button {
+    -fx-background-color: white;
+    -fx-border-radius: 2px;
+    -fx-text-fill: black;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -fx-cursor: hand;
+
+}
+
+.button:hover {
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-border-color: none;
+    -fx-background-color: white;
+}
+
+#update {
+    -fx-border-color: #555555;
+}
+
+#update:hover {
+    -fx-background-color: #555555;
+}
